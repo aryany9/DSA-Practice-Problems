@@ -86,6 +86,11 @@ public class LinkedListCreation {
         ll.add("Four");
         ll.add("Five");
 
+
+
+        // Adding an element at particular index doesn't replace the element.
+        ll.add(2, "ThreeTwo");
+
         // Printing the LinkedList
         System.out.println(ll);
     }
