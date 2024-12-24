@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4dbfb0-536b-4530-9da5-517ad8de637e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/Reverse_Linked_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LinkedListCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LinkedListCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,8 @@
       <updated>1734757279017</updated>
       <workItem from="1734757280077" duration="974000" />
       <workItem from="1734832760816" duration="1188000" />
-      <workItem from="1734921340574" duration="895000" />
+      <workItem from="1734921340574" duration="1401000" />
+      <workItem from="1735005591641" duration="4308000" />
     </task>
     <servers />
   </component>
