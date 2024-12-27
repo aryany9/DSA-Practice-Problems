@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Reverse_Linked_List {
 
-     public static class ListNode {
+     private static class ListNode {
          int val;
          ListNode next;
          ListNode() {}
@@ -15,13 +15,8 @@ public class Reverse_Linked_List {
 
 
      // Method to reverse the linked list
-    /* Questions that comes in Mind while solving the problem.
-    * How to calculate the size of the linkedList? for "for" loop.
-    * Should this can be solved with do-while or for loop?
-    * How to reverse now? Converting to Array? or
-    * */
-     public static ListNode reverseList(ListNode head) {
-         // Three pointer approach
+     private static ListNode reverseList(ListNode head) {
+         // For Loop Approach
          /*
              ListNode prev = null;
              ListNode current = head;
@@ -37,20 +32,20 @@ public class Reverse_Linked_List {
          */
 
          // While Loop Approach
-         ListNode temp = null;
-         ListNode next = null;
+         ListNode next;
+         ListNode prev = null;
          while (head != null) {
-             temp = head.next; // Temporary storing next node
-             head.next = next; // Nullifying the next node
-             next = head; // Pointing to the previous node
-             head = temp; // Incrementing the next node
+             next = head.next; // Temporary storing next node
+             head.next = prev; // Nullifying the current next node
+             prev = head; // adding current to the previous node
+             head = next; // replacing current to the next node
          }
-         return next;
+         return prev;
 
      }
 
     // Method to convert linked list to list and print it
-    public static List<Integer> toList(ListNode head) {
+    private static List<Integer> toList(ListNode head) {
         List<Integer> result = new ArrayList<>();
         ListNode current = head;
         while (current != null) {
