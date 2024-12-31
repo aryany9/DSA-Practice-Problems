@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd4dbfb0-536b-4530-9da5-517ad8de637e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/Merging_Sorted_Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/Middle_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/Remove_Duplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/Problems/Reverse_Linked_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/Reverse_Linked_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/Problems/Merging_Sorted_Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/Problems/Merging_Sorted_Lists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,8 @@
       <workItem from="1734921340574" duration="1401000" />
       <workItem from="1735005591641" duration="4583000" />
       <workItem from="1735090546031" duration="5999000" />
-      <workItem from="1735265372222" duration="3452000" />
+      <workItem from="1735265372222" duration="3852000" />
+      <workItem from="1735353630300" duration="1655000" />
     </task>
     <servers />
   </component>
