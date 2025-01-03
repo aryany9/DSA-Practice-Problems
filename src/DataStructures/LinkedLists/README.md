@@ -11,9 +11,9 @@ import java.util.LinkedList;
 public class AddElements {
     
     // Main Method
-    public static void main(String[] args) {
+    public static void main(DataStructures.String[] args) {
         // Creating a Linked List
-        LinkedList<String> ll = new LinkedList<>();
+        LinkedList<DataStructures.String> ll = new LinkedList<>();
         
         // Adding elements to the LinkedList using add() method
         ll.add("One");
