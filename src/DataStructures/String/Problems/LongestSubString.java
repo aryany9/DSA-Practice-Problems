@@ -99,5 +99,10 @@ public class LongestSubString {
         System.out.println("String Length: "+s.length()); // 6
         System.out.println("Substring Length: "+ substringLength);
 
+        /*
+        Final Complexity
+        Time Complexity: O(n) because both pointers traverse the string at most once.
+        Space Complexity: O(n) due to the HashSet, which can hold all characters in the string in the worst case.
+         */
     }
 }
