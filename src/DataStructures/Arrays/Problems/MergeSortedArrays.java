@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /*
+    Video Solution Link: https://www.youtube.com/watch?v=C4oBXLr3zos
+
     You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n,
     representing the number of elements in nums1 and nums2 respectively.
 
