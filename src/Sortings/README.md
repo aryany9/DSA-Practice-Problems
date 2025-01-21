@@ -165,4 +165,4 @@ public static int partition(int[] arr, int low, int high) {
 | Merge Sort      | O(n log n)             | O(n log n)              | O(n)             |
 | Quick Sort      | O(n log n)             | O(n²)                   | O(log n)         |
 
-Try implementing these in your practice to gain confidence in sorting!
+Try implementing these in your practice to gain confidence in Sortings!
