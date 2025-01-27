@@ -22,6 +22,8 @@ import java.util.Arrays;
     The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
  */
 public class MergeSortedArrays {
+
+    // Two Pointer
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         System.out.println(Arrays.toString(nums1));
         int p1 = m-1, p2=n-1, i = m+n-1;
