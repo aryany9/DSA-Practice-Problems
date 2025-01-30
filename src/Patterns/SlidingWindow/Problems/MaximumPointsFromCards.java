@@ -19,7 +19,7 @@ public class MaximumPointsFromCards {
         // Making Each Sum equals to Zero
         int leftSum = 0;
         int rightSum = 0;
-        int maxSum = 0;
+        int maxSum;
 
         // Calculating the sum of First Four Card Points
         for (int i = 0; i <= k-1; i++) {
