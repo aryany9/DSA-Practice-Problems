@@ -1,6 +1,5 @@
 package DataStructures.Arrays.Problems;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /*

@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class SubArraySums {
     public static void sumArray(int[] nums, int k){
-        ArrayList<Integer> resultingArray = new ArrayList<Integer>();
+        ArrayList<Integer> resultingArray = new ArrayList<>();
         int left = 0;
         int right = k-1;
 
