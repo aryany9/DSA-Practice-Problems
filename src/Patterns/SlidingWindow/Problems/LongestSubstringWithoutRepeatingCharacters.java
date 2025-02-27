@@ -47,6 +47,31 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
 
+    static void twoPointerApproachWithString(String s){
+        int left = 0;
+        int maxLength = 0;
+        int startIndex = 0;
+        Set<Character> set = new HashSet<>();
+
+        for (int right = 0; right < s.length(); right++) {
+            while (set.contains(s.charAt(right))) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+
+            set.add(s.charAt(right));
+            int currentLength = right - left + 1;
+
+            if (currentLength > maxLength) {
+                maxLength = currentLength;
+                startIndex = left;
+            }
+        }
+
+        System.out.println( "Length: " + maxLength + ", Substring: \"" + s.substring(startIndex, startIndex + maxLength) + "\"");
+    }
+
+
     static void twoPointerApproach2(String s){
         int maxLength = 0;
 
@@ -67,7 +92,11 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     public static void main(String[] args) {
-        String i = "cadbzabcd";
+//        String i = "cadbzabcd";
+
+//        String i = "pwwkew";
+
+        String i = "abcabcbb";
 
         // Brute Force Approach
         bruteForceApproach(i);
@@ -77,6 +106,9 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         // Two Pointer Approach 2
         twoPointerApproach2(i);
+
+        // Two Pointer Approach With String in return
+        twoPointerApproachWithString(i);
 
     }
 }
