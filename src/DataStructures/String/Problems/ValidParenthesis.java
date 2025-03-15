@@ -4,6 +4,11 @@ import java.util.Stack;
 
 public class ValidParenthesis {
     public static boolean isValid(String s){
+        String ss = "asda";
+        ss.length();
+        char[] arr = ss.toCharArray();
+        int s1 = arr.length;
+
         Stack<Character> st = new Stack<>();
 
         for (int i = 0; i < s.length(); i++) {
